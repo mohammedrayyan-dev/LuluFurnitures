@@ -1,4 +1,4 @@
-import HeroBanner4 from "/src/assets/HeroImage4.png"
+import HeroBanner4 from "/src/assets/images/icons/ui/banners/HeroBanner4.png"
 
 const AboutUs = () => {
   return (

@@ -1,12 +1,12 @@
-import SofaLounge from "/src/assets/SofaLounge.png";
-import BedCot from "/src/assets/Bed&Cot.png";
-import DiningTable from "/src/assets/DiningTable.png";
-import StorageShelf from "/src/assets/StorageShelf.png";
-import TvUnit from "/src/assets/TvUnit.png";
-import WoodenAccessories from "/src/assets/WoodenAccessories.png";
-import SofaVector from "/src/assets/SofaVector.png";
-import SofaVector1 from "/src/assets/SofaVector1.png";
-import DeliveryVector from "/src/assets/DeliveryVector.png";
+import SofaLounge from "/src/assets/images/icons/ui/banners/products/SofaLounge.png";
+import BedCot from "/src/assets/images/icons/ui/banners/products/Bed&Cot.png";
+import DiningTable from "/src/assets/images/icons/ui/banners/products/DiningTable.png";
+import StorageShelf from "/src/assets/images/icons/ui/banners/products/StorageShelf.png";
+import TvUnit from "/src/assets/images/icons/ui/banners/products/TvUnit.png";
+import WoodenAccessories from "/src/assets/images/icons/ui/banners/products/WoodenAccessories.png";
+import OneSeaterSofaVector from "/src/assets/images/icons/1SeaterSofaVector.png";
+import TwoSeaterSofaVector from "/src/assets/images/icons/2SeaterSofaVector.png";
+import DeliveryVanVector from "/src/assets/images/icons/DeliveryVanVector.png";
 import { useNavigate } from "react-router-dom";
 
 const OurCollections = () => {
@@ -90,7 +90,7 @@ const OurCollections = () => {
         <div className="bg-[#DBD1C7] h-[110px] mb-[100px] w-full flex items-center justify-evenly">
 
             <div className="flex items-center flex-row">
-            <img src={SofaVector1} alt="Sofa Vector1" className="h-[40px] w-[50px]"/>
+            <img src={OneSeaterSofaVector} alt="One Seater Sofa Vector" className="w-[40px]"/>
             <div className="flex flex-col ml-[20px]">
             <h2 className="font-lato text-[#6B4C41] text-[20px]">
                 Shift the Furniture
@@ -102,7 +102,7 @@ const OurCollections = () => {
             </div>
 
             <div className="flex items-center flex-row">
-            <img src={DeliveryVector} alt="Delivery Vector" className="h-[40px] w-[50px]"/>
+            <img src={DeliveryVanVector} alt="Delivery Van Vector" className="w-[50px]"/>
             <div className="flex flex-col ml-[20px]">
             <h2 className="font-lato text-[#6B4C41] text-[20px] ">
                 Simplicity in Action
@@ -114,7 +114,7 @@ const OurCollections = () => {
             </div>
 
             <div className="flex items-center flex-row">
-            <img src={SofaVector} alt="Sofa Vector" className="h-[40px] w-[50px]"/>
+            <img src={TwoSeaterSofaVector} alt="Two Seater Sofa Vector" className="w-[50px]"/>
             <div className="flex flex-col ml-[20px]">
             <h2 className="font-lato text-[#6B4C41] text-[20px]">
                 Touch, Feel, Relax

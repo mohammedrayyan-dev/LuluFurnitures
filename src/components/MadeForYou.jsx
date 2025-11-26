@@ -1,9 +1,9 @@
-import HeroBanner3 from "/src/assets/HeroImage3.png"
+import HeroBanner3 from "/src/assets/images/icons/ui/banners/HeroBanner3.png"
 
 const MadeForYou = () => {
   return (
     <>
-    <div className="bg-[#FFFFFF] h-dvh flex justify-center gap-10 px-10 py-16">
+    <div className="bg-[#FFFFFF] h-dvh flex justify-center gap-24 px-10 py-16">
 
   <div className="flex flex-col">
   <div className="mb-10 border-t border-[#33333366]"></div>
@@ -19,7 +19,7 @@ const MadeForYou = () => {
   </div>
 
   <div className="">
-    <img src={HeroBanner3} alt="Hero Banner" className="max-w-full h-auto rounded-lg" />
+    <img src={HeroBanner3} alt="Hero Banner" className="w-[575px] h-auto rounded-lg" />
   </div>
 
 </div>

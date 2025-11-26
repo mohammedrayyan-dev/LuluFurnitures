@@ -1,4 +1,4 @@
-import HeroBanner2 from "/src/assets/HeroImage2.png"
+import HeroBanner2 from "/src/assets/images/icons/ui/banners/HeroBanner2.png"
 
 const WhatMakesUsDifferent = () => {
   return (

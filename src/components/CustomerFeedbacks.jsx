@@ -1,6 +1,5 @@
-import HeroBanner4 from "/src/assets/HeroImage4.png"
-import Arrow from "/src/assets/ArrowFilled.png"
-import Star from "/src/assets/StarSymbol.png"
+import ArrowIcon from "/src/assets/images/icons/ArrowIcon.png"
+import StarIcon from "/src/assets/images/icons/StarIcon.png"
 
 const CustomerFeedbacks = () => {
   return (
@@ -17,7 +16,7 @@ const CustomerFeedbacks = () => {
         <h1 className="text-[#6B4C41] text-[20px] font-lato">
             Read more
         </h1>
-        <img src={Arrow} alt="ArrowIcon" className="ml-2 mt-1"/>
+        <img src={ArrowIcon} alt="Arrow Icon" className="ml-2 mt-1 w-[12px]"/>
         </div>
         </div>
 
@@ -32,7 +31,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[19px]">
                 4.3/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[19px]">
@@ -57,7 +56,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[20px]">
                 4.8/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[20px]">
@@ -82,7 +81,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[20px]">
                 5/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[20px]">
@@ -108,7 +107,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[20px]">
                 3.8/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[20px]">
@@ -133,7 +132,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[20px]">
                 4/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[20px]">
@@ -158,7 +157,7 @@ const CustomerFeedbacks = () => {
             <h1 className="text-[20px]">
                 4.1/5 
             </h1>
-            <img src={Star} alt="StarIcon" className="ml-2 mt-1 h-[20px]"/>
+            <img src={StarIcon} alt="Star Icon" className="ml-2 mt-1 h-[20px]"/>
             </div>
             </div>
             <p className="text-[16px] text-[#33333375] font-lato pt-[20px]">

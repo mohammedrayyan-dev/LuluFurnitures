@@ -1,4 +1,4 @@
-import Whatsapp from "/src/assets/WhatsappIcon.png"
+import Whatsapp from "/src/assets/images/icons/WhatsappIcon.png"
 
 export const WhatsApp = () => {
   return (

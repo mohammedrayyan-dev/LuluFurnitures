@@ -1,11 +1,11 @@
-import Arrow from "../assets/Arrow2.png"
-import TeakWoodSofa from "../assets/TeakWoodSofa.png"
-import RubberWoodSofa from "../assets/RubberWoodSofa.png"
-import CushionComfortSofa from "../assets/CushionComfortSofa.png"
-import FabricSofa from "../assets/FabricSofa.png"
-import VelvetFabricSofa from "../assets/VelvetFabricSofa.png"
-import ReclinerLeatherSofa from "../assets/ReclinerLeatherSofa.png"
-import TeakWoodFabricSofa from "../assets/TeakWoodFabricSofa.png"
+import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
+import TeakWoodSofa from "/src/assets/images/icons/ui/banners/products/Sofa/TeakWoodSofa.png"
+import RubberWoodSofa from "/src/assets/images/icons/ui/banners/products/Sofa/RubberWoodSofa.png"
+import CushionComfortSofa from "/src/assets/images/icons/ui/banners/products/Sofa/CushionComfortSofa.png"
+import FabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/FabricSofa.png"
+import VelvetFabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/VelvetFabricSofa.png"
+import ReclinerLeatherSofa from "/src/assets/images/icons/ui/banners/products/Sofa/ReclinerLeatherSofa.png"
+import TeakWoodFabricSofa from "/src/assets/images/icons/ui/banners/products/Sofa/TeakWoodFabricSofa.png"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "../components/WhatsApp.jsx"
 
@@ -19,7 +19,7 @@ const Sofa = () => {
     <div className="bg-[#FFFFFF] mt-10 mx-15">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
-        <img src={Arrow} alt="Arrow" onClick={"/"} className="h-[16px] cursor-pointer" />
+        <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[28px] cursor-pointer" />
         </a>
         <h1 className="font-corinthia text-[40px] text-[#6B4C41] font-bold">
             Sofa

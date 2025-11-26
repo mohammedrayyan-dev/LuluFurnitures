@@ -1,5 +1,5 @@
 import Navbar from "/src/components/Navbar.jsx"
-import HeroBanner from "/src/assets/HeroImage.png"
+import HeroBanner from "/src/assets/images/icons/ui/banners/HeroBanner.png"
 import WhatMakesUsDifferent from "/src/components/WhatMakesUsDifferent.jsx"
 import MadeForYou from "../components/MadeForYou.jsx"
 import OurCollections from "../components/OurCollections.jsx"
@@ -18,7 +18,7 @@ const Home = () => {
     <section id="navbar">
     <div className="bg-[#DBD1C7] h-dvh">
       <Navbar />
-    <div className="flex  flex-col justify-center items-center mb-[20px]">
+    <div className="flex flex-col justify-center items-center mb-[20px]">
       <h1 className="font-lato font-normal text-[#333333] text-center text-[64px] pt-[100px]">
         Inspire. Design. Make It Yours.
       </h1>

@@ -1,9 +1,9 @@
-import Arrow from "../assets/Arrow2.png"
-import WoodenChair from "../assets/WoodenChair.png"
-import Diwan from "../assets/Diwan.png"
-import OfficeChair from "../assets/OfficeChair.png"
-import BossChair from "../assets/BossChair.png"
-import DevotionalTable from "../assets/DevotionalTable.png"
+import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
+import WoodenChair from "/src/assets/images/icons/ui/banners/products/woodenaccessories/WoodenChair.png"
+import Diwan from "/src/assets/images/icons/ui/banners/products/woodenaccessories/Diwan.png"
+import OfficeChair from "/src/assets/images/icons/ui/banners/products/woodenaccessories/OfficeChair.png"
+import BossChair from "/src/assets/images/icons/ui/banners/products/woodenaccessories/BossChair.png"
+import DevotionalTable from "/src/assets/images/icons/ui/banners/products/woodenaccessories/DevotionalTable.png"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "../components/WhatsApp.jsx"
 
@@ -17,7 +17,7 @@ const WoodenAccessories = () => {
     <div className="bg-[#FFFFFF] mt-10 mx-15">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
-            <img src={Arrow} alt="Arrow" onClick={"/"} className="h-[16px] cursor-pointer" />
+            <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[28px] cursor-pointer" />
         </a>
         <h1 className="font-corinthia text-[40px] text-[#6B4C41] font-bold">
             Wooden Accessories

@@ -1,7 +1,7 @@
-import Arrow from "../assets/Arrow2.png"
-import TVCabinetDecor from "../assets/TVCabinetDecor.png"
-import TVStand from "../assets/TVStand.png"
-import TVUnitDesign from "../assets/TVUnitDesign.png"
+import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
+import TVCabinetDecor from "/src/assets/images/icons/ui/banners/products/tvunit/TvCabinetDoor.png"
+import TVStand from "/src/assets/images/icons/ui/banners/products/tvunit/TvStand.png"
+import TVUnitDesign from "/src/assets/images/icons/ui/banners/products/tvunit/TvUnitDesign.png"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "../components/WhatsApp.jsx"
 
@@ -15,7 +15,7 @@ const TvUnit = () => {
     <div className="bg-[#FFFFFF] mt-10 mx-15">
     <div className="flex flex-row items-center space-x-4">
         <a href="/">
-            <img src={Arrow} alt="Arrow" onClick={"/"} className="h-[16px] cursor-pointer" />
+            <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[28px] cursor-pointer" />
         </a>
         <h1 className="font-corinthia text-[40px] text-[#6B4C41] font-bold">
             Tv Unit
