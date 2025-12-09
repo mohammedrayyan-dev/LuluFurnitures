@@ -36,7 +36,7 @@ const Navbar = () => {
     {/* Navbar */}
     <div className="flex relative items-center justify-between">
     <div>
-      <img src={logo} alt="LuluLogo" className="ml-[20px] mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[40px] md:h-[50px] md:w-[78px] lg:w-[98px]"/>
+      <img src={logo} alt="LuluLogo" className="ml-[20px] mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[53px] md:h-[64px] md:w-[78px] lg:w-[98px]"/>
     </div>
     <div
     className={`

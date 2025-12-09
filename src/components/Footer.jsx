@@ -24,7 +24,7 @@ const Footer = () => {
         </a>
         </div>
         <div className="flex flex-row pt-[18px] lg:pt-[25px] space-x-3">
-        <img src={MailIcon} alt="InstagramIcon" className="w-[18px] lg:w-[24px]"/>
+        <img src={MailIcon} alt="InstagramIcon" className="w-[18px] h-[27px] lg:w-[24px]"/>
         <a 
         href="mailto:officiallulufurnitures@gmail.com" 
         className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
@@ -75,7 +75,7 @@ const Footer = () => {
         </h2>
         <div className="flex">
         <a
-        href="https://wa.me/8220137877"
+        href="https://wa.me/918220137877"
         target="_blank">
         <button className="bg-[#6B4C41] hover:bg-[#553C34] font-semibold font-dm text-[12px] lg:text-[14px] text-[#ffffff] rounded-3xl w-[130px] lg:w-[160px] h-[48px] cursor-pointer">
             Customer Support
