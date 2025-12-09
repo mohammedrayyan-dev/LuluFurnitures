@@ -29,7 +29,7 @@ const Footer = () => {
         href="mailto:officiallulufurnitures@gmail.com" 
         className="font-dm text-[#6F6F6F] text-[12px] lg:text-[16px]"
         target="_blank"> 
-            officiallulufurniture@gmail.com
+            officiallulufurnitures@gmail.com
         </a>
         </div>
     </div>
