@@ -38,18 +38,18 @@ This project was created for a real client and is included in my portfolio to sh
 
 ### 🖥️ Desktop – Home Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/a7f04c58-aed0-4856-88cb-910d5fa97a3c" alt="Home Page" width="70%"/>
+  <img src="https://github.com/user-attachments/assets/da84b07a-917e-4410-a7d5-f6804047bda2" alt="Home Page" width="70%"/>
 </p>
 
 ### 🪑 Desktop – Product Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4a13105f-b805-492a-ba4f-cd1613158b8b" alt="Products Page" width="70%"/>  
+  <img src="https://github.com/user-attachments/assets/4aa26507-18a4-4b05-ae7c-6ef080bc37b1" alt="Products Page" width="70%"/>  
 </p>
 
 ### 📱 Mobile & Tablet Views
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/ad0f0543-5b3d-42ff-a805-8334755b8f2f" width="30%" />
-  <img src="https://github.com/user-attachments/assets/8cbed378-557e-43d9-90b7-688d0f2a315c" width="40%" />
+  <img src="https://github.com/user-attachments/assets/d857b4ba-0ab6-47d8-b246-8b5e42e48b15" width="30%" />
+  <img src="https://github.com/user-attachments/assets/329907eb-fc4d-47e6-b1c5-3dd0b728bfbd" width="40%" />
 </p>
 
 
