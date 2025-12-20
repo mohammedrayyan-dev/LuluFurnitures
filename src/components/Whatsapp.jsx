@@ -4,9 +4,9 @@ export const WhatsApp = () => {
   return (
     <>
     <div className="fixed bg-[#FFFFFF50] backdrop-blur-sm rounded-2xl bottom-6 lg:bottom-7 right-18 lg:right-21 z-50">
-      <h1 className="font-lato p-[10px] text-[11px] lg:text-[14px]">
+      <h3 className="font-lato p-[10px] text-[11px] lg:text-[14px]">
         Deals on Whatsapp!
-      </h1>
+      </h3>
     </div>
     <div className="fixed bottom-5 right-5 z-50">
       <a

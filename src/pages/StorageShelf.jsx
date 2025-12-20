@@ -3,7 +3,7 @@ import StorageTable from "/src/assets/images/icons/ui/banners/products/storagesh
 import DressingTable from "/src/assets/images/icons/ui/banners/products/storageshelf/DressingTable.png"
 import DressCupboard from "/src/assets/images/icons/ui/banners/products/storageshelf/DressCupboard.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/Whatsapp.jsx"
+import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
 const StorageShelf = () => {
   return (
@@ -27,23 +27,23 @@ const StorageShelf = () => {
         <div className="relative">
         <img src={StorageTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Storage Table
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={DressingTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Dressing Table
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={DressCupboard} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Dress Cupboard
-        </h1>
+        </h2>
         </div>
     </div>
     </div>

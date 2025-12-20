@@ -43,18 +43,18 @@ const Navbar = () => {
     w-full z-50 transition-all duration-300 fixed ${isFloating ? "top-5" : "top-[15px] lg:top-[30px]"} bg-white shadow-md
     `}>
     <div className="hidden lg:absolute lg:flex lg:items-center lg:gap-6 lg:bg-[#FFFFFF66] lg:h-[60px] lg:w-[382px] lg:rounded-full lg:backdrop-blur-sm lg:font-sans lg:text-[#333333] lg:px-[20px] lg:py-[24px] lg:font-semibold lg:left-1/2 lg:transform lg:-translate-x-1/2">
-    <a href="/">
+    <Link to="/">
     Home
-    </a>
-    <a href="#products">
+    </Link>
+    <Link to="/#products">
     Products
-    </a>
-    <a href="#feedback">
+    </Link>
+    <Link to="/#feedback">
     Feedback
-    </a>
-    <a href="#aboutus">
+    </Link>
+    <Link to="/#aboutus">
     About Us
-    </a>
+    </Link>
     </div>
     </div>
 
@@ -69,15 +69,15 @@ const Navbar = () => {
     <a href="/">
     Home
     </a>
-    <a href="#products">
+    <Link to="#products">
     Products
-    </a>
-    <a href="#feedback">
+    </Link>
+    <Link to="#feedback">
     Feedback
-    </a>
-    <a href="#aboutus">
+    </Link>
+    <Link to="#aboutus">
     About Us
-    </a>
+    </Link>
     </div>
     )}
     </div>

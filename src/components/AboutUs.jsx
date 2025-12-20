@@ -6,9 +6,9 @@ const AboutUs = () => {
     <div className="flex flex-col bg-[#FFFFFF] items-center">
       <div className="hidden lg:block mb-10 border-t w-[1295px] border-[#33333366]" />
       <div>
-        <h1 className="text-[#6B4C41] pt-[2px] lg:pt-[10px] font-bold text-[24px] lg:text-[40px] font-corinthia">
+        <h2 className="text-[#6B4C41] pt-[2px] lg:pt-[10px] font-bold text-[24px] lg:text-[40px] font-corinthia">
             About us
-        </h1>
+        </h2>
         <p className="font-dm pt-[15px] lg:pt-[40px] max-w-xs md:max-w-2xl lg:max-w-7xl text-[#6F6F6F] text-[14px] lg:text-[19px]">
             At our store, we believe that furniture is more than just something you use it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods such as teak, rubber wood, and neem wood, known for their strength, durability, and natural beauty. Our skilled craftsmen combine traditional techniques with modern design to make furniture that is both stylish and long-lasting.
         </p>

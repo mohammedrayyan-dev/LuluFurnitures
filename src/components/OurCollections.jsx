@@ -19,9 +19,9 @@ const OurCollections = () => {
 
         <div className="flex flex-col">
             <div className="hidden lg:block mb-10 border-t w-[1295px] border-[#33333366]" />  
-            <h1 className="text-[#6B4C41] pr-[180px] md:pr-[530px] font-bold text-[24px] lg:text-[40px] font-corinthia">
+            <h2 className="text-[#6B4C41] pr-[180px] md:pr-[530px] font-bold text-[24px] lg:text-[40px] font-corinthia">
                 Our Collections
-            </h1>
+            </h2>
         </div>
 
         <div className="mt-[10px] lg:mt-[40px] grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-[40px] lg:mb-[100px]">
@@ -31,58 +31,58 @@ const OurCollections = () => {
         className="flex relative cursor-pointer">
             <img src={SofaLounge} alt="Sofa Lounge" className="h-[300px] w-[320px] lg:h-[460px] lg:w-[380px] rounded-xl"/>
             <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[460px] lg:w-[380px] rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 SOFA <br/>
                 LOUNGE
-            </h2>
+            </h3>
         </div>
         <div 
         onClick={() => navigate("/bedcot")} 
         className="flex relative">
         <img src={BedCot} alt="Bed & Cot" className="h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] object-cover self-end rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] cursor-pointer object-cover self-end rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
                 BED & COT
-            </h2>
+            </h3>
         </div>
         <div 
         onClick={() => navigate("/diningtable")} 
         className="flex relative">
         <img src={DiningTable} alt="Dinning Table" className="h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] object-cover self-end rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] cursor-pointer object-cover self-end rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8 cursor-pointer">
                 DINING <br/>
                 TABLE
-            </h2>
+            </h3>
         </div>
         <div 
         onClick={() => navigate("/storageshelf")}
         className="flex relative cursor-pointer">
         <img src={StorageShelf} alt="Storage Shelf" className="h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 STORAGE <br/>
                 SHELF
-            </h2>
+            </h3>
         </div>
         <div 
         onClick={() => navigate("/tvunit")}
         className="flex relative cursor-pointer">
         <img src={TvUnit} alt="Tv Unit" className="h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 TV UNIT
-            </h2>
+            </h3>
         </div>
         <div 
         onClick={() => navigate("/woodenaccessories")}
         className="flex relative cursor-pointer">
         <img src={WoodenAccessories} alt="Wooden Accessories" className="h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl"/>
         <div className="absolute inset-0 bg-[#00000059] hover:bg-[#00000075] h-[300px] w-[320px] lg:h-[320px] lg:w-[380px] rounded-xl" />
-            <h2 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
+            <h3 className="absolute font-lato text-[#FFFFFF] text-[24px] lg:text-[30px] bottom-4 lg:bottom-6 left-6 lg:left-8">
                 WOODEN <br/>
                 ACCESSORIES
-            </h2>
+            </h3>
         </div>
         
         </div>
@@ -92,9 +92,9 @@ const OurCollections = () => {
             <div className="flex items-center flex-row">
             <img src={OneSeaterSofaVector} alt="One Seater Sofa Vector" className="w-[40px]"/>
             <div className="flex flex-col ml-[20px]">
-            <h2 className="font-lato text-[#6B4C41] text-[20px]">
+            <h3 className="font-lato text-[#6B4C41] text-[20px]">
                 Shift the Furniture
-            </h2>
+            </h3>
             <p className="font-lato text-[#6B4C41] text-[12px]">
                 Tomorrow’s Comfort Today
             </p>
@@ -104,9 +104,9 @@ const OurCollections = () => {
             <div className="flex items-center flex-row">
             <img src={DeliveryVanVector} alt="Delivery Van Vector" className="w-[50px]"/>
             <div className="flex flex-col ml-[20px]">
-            <h2 className="font-lato text-[#6B4C41] text-[20px] ">
+            <h3 className="font-lato text-[#6B4C41] text-[20px] ">
                 Simplicity in Action
-            </h2>
+            </h3>
             <p className="font-lato text-[#6B4C41] text-[12px]">
                 So Easy to Assemble!
             </p>
@@ -116,9 +116,9 @@ const OurCollections = () => {
             <div className="flex items-center flex-row">
             <img src={TwoSeaterSofaVector} alt="Two Seater Sofa Vector" className="w-[50px]"/>
             <div className="flex flex-col ml-[20px]">
-            <h2 className="font-lato text-[#6B4C41] text-[20px]">
+            <h3 className="font-lato text-[#6B4C41] text-[20px]">
                 Touch, Feel, Relax
-            </h2>
+            </h3>
             <p className="font-lato text-[#6B4C41] text-[12px]">
                 Upto 5yrs Warranty 
             </p>

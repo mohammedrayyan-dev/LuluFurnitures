@@ -7,9 +7,9 @@ const MadeForYou = () => {
 
   <div className="flex flex-col space-y-4 lg:space-y-10">
   <div className="hidden lg:block mb-10 border-t border-[#33333366]" />
-    <h1 className="text-[24px] lg:text-[40px] pt-[10px] font-corinthia text-[#6B4C41] font-bold">
+    <h2 className="text-[24px] lg:text-[40px] pt-[10px] font-corinthia text-[#6B4C41] font-bold">
       Made for You
-    </h1>
+    </h2>
     <p className="text-[#6F6F6F] max-w-xs lg:max-w-xl font-dm text-[14px] lg:text-[19px]">
       We understand that every customer is unique. That’s why we focus on customisation—allowing you to choose designs, colours, finishes, and sizes that perfectly match your space and taste. Whether you’re looking for a cozy sofa, a solid wood dining table, or a complete home interior setup, we work closely with you to turn your vision into reality.
     </p>

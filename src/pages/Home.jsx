@@ -6,10 +6,23 @@ import OurCollections from "../components/OurCollections.jsx"
 import AboutUs from "../components/AboutUs"
 import Footer from "../components/Footer"
 import CustomerFeedbacks from "../components/CustomerFeedbacks.jsx"
-import { WhatsApp } from "../components/Whatsapp.jsx"
+import { WhatsApp } from "/src/components/Whatsapp.jsx"
 import MobileView from "/src/assets/images/icons/ui/banners/MobileViewHeroBanner.png"
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const Home = () => {
+  const { hash } = useLocation();
+
+  useEffect(() => {
+    if (!hash) return;
+
+    const element = document.querySelector(hash);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }, [hash]);
+
   return (
     <>
     {/* Whatsapp float */}

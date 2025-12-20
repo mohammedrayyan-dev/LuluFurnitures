@@ -3,7 +3,7 @@ import TVCabinetDecor from "/src/assets/images/icons/ui/banners/products/tvunit/
 import TVStand from "/src/assets/images/icons/ui/banners/products/tvunit/TvStand.png"
 import TVUnitDesign from "/src/assets/images/icons/ui/banners/products/tvunit/TvUnitDesign.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/Whatsapp.jsx"
+import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
 const TvUnit = () => {
   return (
@@ -27,23 +27,23 @@ const TvUnit = () => {
         <div className="relative">
         <img src={TVCabinetDecor} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             TV Cabinet Decor
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={TVStand} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             TV Stand
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={TVUnitDesign} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             TV Unit Design
-        </h1>
+        </h2>
         </div>
     </div>
     </div>

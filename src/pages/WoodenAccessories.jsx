@@ -5,7 +5,7 @@ import OfficeChair from "/src/assets/images/icons/ui/banners/products/woodenacce
 import BossChair from "/src/assets/images/icons/ui/banners/products/woodenaccessories/BossChair.png"
 import DevotionalTable from "/src/assets/images/icons/ui/banners/products/woodenaccessories/DevotionalTable.png"
 import Footer from "../components/Footer.jsx"
-import { WhatsApp } from "../components/Whatsapp.jsx"
+import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
 const WoodenAccessories = () => {
   return (
@@ -29,37 +29,37 @@ const WoodenAccessories = () => {
         <div className="relative">
         <img src={WoodenChair} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Wooden Chair
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={Diwan} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Diwan
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={OfficeChair} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Office Chair
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={BossChair} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Boss Chair
-        </h1>
+        </h2>
         </div>
         <div className="relative">
         <img src={DevotionalTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
         <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h1 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
+        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
             Devotional Table
-        </h1>
+        </h2>
         </div>
     </div>
     </div>
