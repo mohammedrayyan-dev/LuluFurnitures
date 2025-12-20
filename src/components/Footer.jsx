@@ -7,7 +7,7 @@ import GoogleReviewsMap from "./GoogleReviewsMap"
 const Footer = () => {
 
   return (
-    <div className="bg-[#DBD1C7] h-[auto] pl-[30px] lg:pl-[0px] pb-[40px] lg:h-[auto] mt-[40px] lg:mt-[90px] flex flex-col-reverse md:flex-row lg:flex-row justify-center space-x-10 lg:space-x-20">
+    <div className="bg-[#DBD1C7] h-[auto] pl-[30px] lg:pl-[0px] pb-[40px] lg:h-[auto] mt-[40px] lg:mt-[90px] flex flex-col-reverse lg:flex-row justify-center space-x-10 lg:space-x-20">
 
     <div className="pt-[25px] lg:pt-[50px]">
         <img src={LuluLogo} alt="Lulu Logo" className="w-[64px] lg:w-[98px]"/>
@@ -34,7 +34,8 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-row space-x-20">
+    <div className="flex flex-col-reverse md:flex md:flex-row md:space-x-35 lg:space-x-20">
+    <div className="flex flex-row space-x-20 md:space-x-35 lg:space-x-20">
     <div className="flex flex-col space-y-4 lg:space-y-8 pt-[25px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
             Explore
@@ -83,13 +84,14 @@ const Footer = () => {
         </a>
         </div>
         <h4 className="font-dm text-[#6F6F6F] max-w-md lg:max-w-xs text-[14px] lg:text-[18px]">
-            2nd Street, Nanjundeshwar Nagar,
-            Near Ashok Pillor, 
+            2nd Street, Nanjundeshwar Nagar, <br/>
+            Near Ashok Pillor, <br/>
             Hosur - 635109.
         </h4>
         <section>
             <GoogleReviewsMap/>
         </section>
+    </div>
     </div>
 
     </div>
