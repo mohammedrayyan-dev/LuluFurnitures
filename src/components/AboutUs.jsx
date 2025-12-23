@@ -3,10 +3,10 @@ import HeroBanner4 from "/src/assets/images/icons/ui/banners/HeroBanner4.png"
 const AboutUs = () => {
   return (
     <>
-    <div className="flex flex-col bg-[#FFFFFF] items-center">
-      <div className="hidden lg:block mb-10 border-t w-[1295px] border-[#33333366]" />
+    <div className="flex flex-col bg-white max-w-7xl mx-auto items-center">
+      <div className="hidden lg:block mb-10 border-t w-full border-[#33333366]" />
       <div>
-        <h2 className="text-[#6B4C41] pt-[2px] lg:pt-[10px] font-bold text-[24px] lg:text-[40px] font-corinthia">
+        <h2 className="text-[#6B4C41] text-2xl lg:text-4xl font-bold font-corinthia pt-[2px] lg:pt-[10px]">
             About us
         </h2>
         <p className="font-dm pt-[15px] lg:pt-[40px] max-w-xs md:max-w-2xl lg:max-w-7xl text-[#6F6F6F] text-[14px] lg:text-[19px]">

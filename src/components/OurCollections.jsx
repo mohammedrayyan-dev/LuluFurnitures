@@ -15,11 +15,11 @@ const OurCollections = () => {
 
   return (
     <>
-     <div className="bg-[#FFFFFF] flex flex-col items-center">
+     <div className="bg-white max-w-7xl mx-auto flex flex-col">
 
         <div className="flex flex-col">
-            <div className="hidden lg:block mb-10 border-t w-[1295px] border-[#33333366]" />  
-            <h2 className="text-[#6B4C41] pr-[180px] md:pr-[530px] font-bold text-[24px] lg:text-[40px] font-corinthia">
+            <div className="hidden lg:block w-full mb-10 border-t border-[#33333366]" />  
+            <h2 className="text-[#6B4C41] font-bold text-[24px] lg:text-[40px] font-corinthia">
                 Our Collections
             </h2>
         </div>
@@ -87,7 +87,7 @@ const OurCollections = () => {
         
         </div>
 
-        <div className="hidden lg:flex bg-[#DBD1C7] h-[110px] mb-[100px] w-full flex items-center justify-evenly">
+        <div className="hidden lg:flex bg-[#DBD1C7] h-[110px] mb-[60px] w-full flex items-center justify-evenly">
 
             <div className="flex items-center flex-row">
             <img src={OneSeaterSofaVector} alt="One Seater Sofa Vector" className="w-[40px]"/>

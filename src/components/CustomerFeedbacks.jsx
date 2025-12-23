@@ -3,12 +3,12 @@ import GoogleReviews from "/src/components/GoogleReviews.jsx"
 const CustomerFeedbacks = () => {
   return (
     <>
-    <div className="bg-[#FFFFFF] flex flex-col items-center">
+    <div className="bg-white flex flex-col max-w-7xl mx-auto items-center">
 
     <div className="flex flex-col">
-      <div className="hidden lg:block mb-10 border-t w-[1295px] border-[#33333366]" />
+      <div className="hidden lg:block mb-10 border-t w-full border-[#33333366]" />
       <div className="flex items-center justify-between">
-        <h2 className="text-[#6B4C41] font-bold text-[24px] lg:text-[40px] font-corinthia">
+        <h2 className="text-[#6B4C41] font-bold text-2xl lg:text-4xl font-corinthia">
             Customer Feedbacks
         </h2>
         </div>
