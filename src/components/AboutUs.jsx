@@ -1,4 +1,4 @@
-import HeroBanner4 from "/src/assets/images/icons/ui/banners/HeroBanner4.webp"
+import HeroBanner4 from "/src/assets/images/ui/banners/HeroBanner4.webp"
 
 const AboutUs = () => {
   return (

@@ -1,8 +1,8 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TeakWoodDiningTable from "/src/assets/images/icons/ui/banners/products/diningtable/TeakWoodDiningTable.png"
-import RubberWoodDiningTable from "/src/assets/images/icons/ui/banners/products/diningtable/RubberWoodDiningTable.png"
-import NeemWoodDiningTable from "/src/assets/images/icons/ui/banners/products/diningtable/NeemWoodDiningTable.png"
-import CoffeeTable from "/src/assets/images/icons/ui/banners/products/diningtable/CoffeeTable.png"
+import TeakWoodDiningTable from "/src/assets/images/ui/banners/products/diningtable/TeakWoodDiningTable.webp"
+import RubberWoodDiningTable from "/src/assets/images/ui/banners/products/diningtable/RubberWoodDiningTable.webp"
+import NeemWoodDiningTable from "/src/assets/images/ui/banners/products/diningtable/NeemWoodDiningTable.webp"
+import CoffeeTable from "/src/assets/images/ui/banners/products/diningtable/CoffeeTable.webp"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
 

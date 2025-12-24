@@ -1,7 +1,7 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import TVCabinetDecor from "/src/assets/images/icons/ui/banners/products/tvunit/TvCabinetDoor.png"
-import TVStand from "/src/assets/images/icons/ui/banners/products/tvunit/TvStand.png"
-import TVUnitDesign from "/src/assets/images/icons/ui/banners/products/tvunit/TvUnitDesign.png"
+import TVCabinetDecor from "/src/assets/images/ui/banners/products/tvunit/TvCabinetDoor.webp"
+import TVStand from "/src/assets/images/ui/banners/products/tvunit/TvStand.webp"
+import TVUnitDesign from "/src/assets/images/ui/banners/products/tvunit/TvUnitDesign.webp"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
 

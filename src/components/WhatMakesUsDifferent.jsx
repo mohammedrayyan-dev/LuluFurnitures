@@ -1,4 +1,4 @@
-import HeroBanner2 from "/src/assets/images/icons/ui/banners/HeroBanner2.webp"
+import HeroBanner2 from "/src/assets/images/ui/banners/HeroBanner2.webp"
 
 const WhatMakesUsDifferent = () => {
   return (

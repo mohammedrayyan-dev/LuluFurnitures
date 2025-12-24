@@ -1,7 +1,7 @@
 import BackArrow from "/src/assets/images/icons/BackArrowIcon.png"
-import StorageTable from "/src/assets/images/icons/ui/banners/products/storageshelf/StorageTable.png"
-import DressingTable from "/src/assets/images/icons/ui/banners/products/storageshelf/DressingTable.png"
-import DressCupboard from "/src/assets/images/icons/ui/banners/products/storageshelf/DressCupboard.png"
+import StorageTable from "/src/assets/images/ui/banners/products/storageshelf/StorageTable.webp"
+import DressingTable from "/src/assets/images/ui/banners/products/storageshelf/DressingTable.webp"
+import DressCupboard from "/src/assets/images/ui/banners/products/storageshelf/DressCupboard.webp"
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
