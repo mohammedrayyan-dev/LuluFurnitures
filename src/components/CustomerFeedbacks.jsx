@@ -15,7 +15,7 @@ const CustomerFeedbacks = () => {
       </div>
 
       {/* Google Review */}
-      <div className="pt-[20px] pb-[80px] lg:pb-[40px] max-w-sm md:max-w-4xl lg:max-w-7xl">
+      <div className="pt-[20px] pb-[40px] max-w-sm md:max-w-4xl lg:max-w-7xl">
         <GoogleReviews />
       </div>
     </div>

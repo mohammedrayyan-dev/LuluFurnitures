@@ -36,7 +36,7 @@ const Navbar = () => {
     {/* Navbar */}
     <div className="flex relative items-center justify-between">
     <div>
-      <img src={logo} alt="LuluLogo" className="ml-[20px] mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[53px] md:h-[54px] md:w-[78px] lg:h-[64px] lg:w-[98px]"/>
+      <img src={logo} alt="LuluLogo" className="lg:ml-[20px] mt-[15px] lg:ml-[40px] lg:mt-[30px] h-[53px] md:h-[54px] md:w-[78px] lg:h-[64px] lg:w-[98px]"/>
     </div>
     <div
     className={`
@@ -59,7 +59,7 @@ const Navbar = () => {
     </div>
 
     {/* Hamburger */}
-    <div className="relative sm:block mr-[20px] mt-[10px]">
+    <div className="relative sm:block mt-[10px]">
       <img src={HamBurgerMenu}
       alt="Menu"
       onClick={() => setIsOpen(!isOpen)}
@@ -69,13 +69,19 @@ const Navbar = () => {
     <a href="/">
     Home
     </a>
-    <Link to="#products">
+    <Link 
+    to="#products"
+    onClick={() => setIsOpen(false)}>
     Products
     </Link>
-    <Link to="#feedback">
+    <Link 
+    to="#feedback"
+    onClick={() => setIsOpen(false)}>
     Feedback
     </Link>
-    <Link to="#aboutus">
+    <Link 
+    to="#aboutus"
+    onClick={() => setIsOpen(false)}>
     About Us
     </Link>
     </div>

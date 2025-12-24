@@ -9,6 +9,16 @@ import TeakWoodFabricSofa from "/src/assets/images/icons/ui/banners/products/sof
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
+const SofaCollections = [
+    { name: "Teak Wood Sofa", image: TeakWoodSofa, alt: "Teak Wood Sofa Image" },
+    { name: "Rubber Wood Sofa", image: RubberWoodSofa, alt: "Rubber Wood Sofa Image" },
+    { name: "Cushion Comfort Sofa", image: CushionComfortSofa, alt: "Cushion Comfort Sofa Image" },
+    { name: "Fabric Sofa", image: FabricSofa,  alt: "Fabric Sofa Image" },
+    { name: "Velvet Fabric Sofa", image: VelvetFabricSofa, alt: "Velvet Fabric Sofa Image" },
+    { name: "Recliner Leather Sofa", image: ReclinerLeatherSofa, alt: "Recliner Leather Sofa Image" },
+    { name: "Teak Wood Fabric Sofa", image: TeakWoodFabricSofa, alt: "Teak Wood Fabric Sofa Image" } 
+]
+
 const Sofa = () => {
   return (
     <>
@@ -21,62 +31,24 @@ const Sofa = () => {
         <a href="/">
         <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[24px] lg:w-[28px] cursor-pointer" />
         </a>
-        <h1 className="font-corinthia text-[24px] lg:text-[40px] text-[#6B4C41] font-bold">
+        <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Sofa
         </h1>
     </div>
     <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
     <div className="flex flex-col items-center space-y-6 lg:space-y-10">
-        <div className="relative">
-        <img src={TeakWoodSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Teak Wood Sofa
+
+        {SofaCollections.map((item) => (
+        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+            {item.name}
         </h2>
         </div>
-        <div className="relative">
-        <img src={RubberWoodSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Rubber Wood Sofa
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={CushionComfortSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Cushion Comfort Sofa
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={FabricSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Fabric Sofa
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={VelvetFabricSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Velvet Fabric Sofa
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={ReclinerLeatherSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Recliner Leather Sofa
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={TeakWoodFabricSofa} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Teak Wood Fabric Sofa
-        </h2>
-        </div>
+        ))}
+        
     </div>
     </div>
     <Footer />

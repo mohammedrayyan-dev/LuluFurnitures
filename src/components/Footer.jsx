@@ -16,7 +16,7 @@ const Footer = () => {
         alt="Lulu Logo" 
         className="w-[64px] lg:w-[98px]"
         />
-        <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-sm lg:text-lg font-normal max-w-xl lg:max-w-md">
+        <p className="text-[#6F6F6F] text-justify pt-[18px] lg:pt-[32px] text-sm lg:text-lg font-normal max-w-xl md:max-w-full lg:max-w-md">
             At our store, we believe that furniture is more than just something you use — it’s what makes a house feel like a home. Every piece we create is made with care, using high-quality woods.
         </p>
 
@@ -46,10 +46,11 @@ const Footer = () => {
         </div>
     </div>
 
-    <div className="flex flex-col md:flex md:flex-row md:gap-35 lg:gap-20">
-    <div className="flex flex-row gap-20 md:gap-35 lg:gap-20">
-
-    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[25px] lg:pt-[50px]">
+    <div className="flex flex-col md:flex md:flex-row  md:gap-35 lg:gap-20">
+    <div className="flex flex-row gap-25 md:gap-35 lg:gap-20">
+    
+    {/* Explore */}
+    <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
             Explore
         </h2>
@@ -67,7 +68,8 @@ const Footer = () => {
         </Link>
     </div>
 
-    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[25px] lg:pt-[50px]">
+    {/* Knowledge */}
+    <div className="flex flex-col space-y-4 lg:space-y-8 lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
             Knowledge
         </h2>
@@ -83,7 +85,7 @@ const Footer = () => {
     </div>
     </div>
 
-    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[20px] lg:pt-[50px]">
+    <div className="flex flex-col space-y-4 lg:space-y-8 pt-[30px] md:pt-[0px] lg:pt-[50px]">
         <h2 className="font-corinthia text-[#6B4C41] text-[24px] lg:text-[36px] font-bold">
             Contact
         </h2>

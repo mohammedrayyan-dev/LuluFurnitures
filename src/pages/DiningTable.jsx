@@ -6,6 +6,13 @@ import CoffeeTable from "/src/assets/images/icons/ui/banners/products/diningtabl
 import Footer from "../components/Footer.jsx"
 import { WhatsApp } from "/src/components/Whatsapp.jsx"
 
+const DiningTableCollections = [
+    { name: "Teak Wood Dining Table", image: TeakWoodDiningTable, alt: "Teak Wood Dining Table Image" },
+    { name: "Rubber Wood Dining Table", image: RubberWoodDiningTable, alt: "Rubber Wood Dining Table Image" },
+    { name: "Neem Wood Dining Table", image: NeemWoodDiningTable, alt: "Neem Wood Dining Table Image" },
+    { name: "Coffee Table", image: CoffeeTable, alt: "Coffee Table Image" },
+]
+
 const DiningTable = () => {
   return (
     <>
@@ -18,41 +25,24 @@ const DiningTable = () => {
         <a href="/">
             <img src={BackArrow} alt="Back Arrow" onClick={"/"} className="w-[24px] lg:w-[28px] cursor-pointer" />
         </a>
-        <h1 className="font-corinthia text-[24px] lg:text-[40px] text-[#6B4C41] font-bold">
+        <h1 className="font-corinthia text-2xl lg:text-[40px] text-[#6B4C41] font-bold">
             Dining Table
         </h1>
     </div>
     <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]"></div>
 
     <div className="flex flex-col items-center space-y-6 lg:space-y-10">
-        <div className="relative">
-        <img src={TeakWoodDiningTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Teak Wood Dining Table
+
+        {DiningTableCollections.map((item) => (
+        <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
+        <img src={item.image} alt={item.alt} className="h-full w-full object-cover rounded-3xl" />
+        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl" />
+        <h2 className="absolute font-lato text-[#FFFFFF] text-xl lg:text-3xl bottom-4 lg:bottom-6 left-4 lg:left-8">
+            {item.name}
         </h2>
         </div>
-        <div className="relative">
-        <img src={RubberWoodDiningTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Rubber Wood Dining Table
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={NeemWoodDiningTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Neem Wood Dining Table
-        </h2>
-        </div>
-        <div className="relative">
-        <img src={CoffeeTable} alt="Teak Wood Sofa" className="h-[165px] lg:h-[280px] w-[1200px] rounded-3xl" />
-        <div className="absolute inset-0 bg-[#00000030] hover:bg-[#00000045] rounded-3xl"></div>
-        <h2 className="absolute font-lato text-[#FFFFFF] text-[20px] lg:text-[30px] bottom-4 lg:bottom-6 left-4 lg:left-8">
-            Coffee Table
-        </h2>
-        </div>
+        ))}
+        
     </div>
     </div>
     <Footer />

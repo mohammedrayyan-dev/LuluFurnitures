@@ -30,13 +30,15 @@ const Home = () => {
     
     {/* Navbar + Hero section */}
     <section id="navbar">
-    <div className="bg-[#DBD1C7] min-h-[140svh] min-h-screen">
+    <div className="bg-[#DBD1C7] px-5 sm:px-6 lg:px-10 min-h-[150svh] min-h-screen">
       <Navbar />
     <div className="flex flex-col justify-center items-center mb-[20px]">
-      <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[70px] lg:pt-[100px]">
+      <h1 className="font-lato font-normal text-[#333333] text-center text-2xl md:text-5xl lg:text-6xl pt-[40px] md:pt-[70px] lg:pt-[80px]">
         Inspire. Design. Make It Yours.
       </h1>
-      <img src={HeroBanner} alt="Hero Banner" className="hidden md:block pt-[2px] lg:w-4xl md:w-2xl lg:h-[450px] md:h-[380px]"/>
+      <div className="hidden md:block pt-[40px] md:aspect-[18/12] lg:aspect-[13/7] max-h-[550px] md:max-w-[450px] lg:max-w-[1250px] oveflow-hidden pb-[30px]">
+      <img src={HeroBanner} alt="Hero Banner" className="h-full w-full object-cover"/>
+      </div>
       <img src={MobileView} alt="Hero Banner" className="block md:hidden pt-[20px] w-[350px] h-[560px]"/>
     </div>
     </div>
