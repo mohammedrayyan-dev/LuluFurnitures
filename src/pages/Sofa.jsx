@@ -37,7 +37,7 @@ const Sofa = () => {
     </div>
     <div className="mb-10 mt-5 lg:mt-0 border-t border-[#33333366]"/>
 
-    <div className="flex flex-col items-center space-y-6 lg:space-y-10">
+    <div className="flex flex-col items-center px-5 sm:px-6 lg:px-15 space-y-6 lg:space-y-10">
 
         {SofaCollections.map((item) => (
         <div className="relative aspect-[18/7] lg:aspect-[25/6] max-w-[1200px]">
