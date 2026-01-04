@@ -16,7 +16,7 @@ const OurCollections = () => {
   return (
     <>
     <div className="bg-white mx-5 sm:mx-6 lg:mx-10">
-     <div className="flex flex-col max-w-screen-2xl mx-auto">
+     <div className="flex flex-col max-w-screen-2xl ">
 
         <div className="flex flex-col">
             <div className="hidden lg:block w-full mb-10 border-t border-[#33333366]" />  
@@ -87,6 +87,8 @@ const OurCollections = () => {
         </div>
         
         </div>
+        </div>
+        </div>
 
         <div className="hidden lg:flex bg-[#DBD1C7] h-[110px] mb-[60px] w-full flex items-center justify-evenly">
 
@@ -126,9 +128,6 @@ const OurCollections = () => {
             </div>
             </div>
 
-        </div>
-
-        </div>
         </div>
         </>
   )
