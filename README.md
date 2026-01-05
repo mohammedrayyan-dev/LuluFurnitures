@@ -38,20 +38,20 @@ This project was created for a real client and is included in my portfolio to sh
 
 ### 🖥️ Desktop – Home Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/da84b07a-917e-4410-a7d5-f6804047bda2" alt="Home Page" width="70%"/>
+  <img src="/.github/assets/DesktopHomeView.png" alt="Home Page" width="70%"/>
 </p>
 
-### 🪑 Desktop – Product Page
+### 🛋️ Desktop – Product Page
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/4aa26507-18a4-4b05-ae7c-6ef080bc37b1" alt="Products Page" width="70%"/>  
+  <img src="/.github/assets/DesktopProductsView.png" alt="Products Page" width="70%"/>  
 </p>
 
 ### 📱 Mobile & Tablet Views
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/d857b4ba-0ab6-47d8-b246-8b5e42e48b15" width="30%" />
-  <img src="https://github.com/user-attachments/assets/329907eb-fc4d-47e6-b1c5-3dd0b728bfbd" width="40%" />
+  <img src="/.github/assets/MobileView.png" width="30%" />
+  <img src="/.github/assets/TabletView.png" width="40%" />
 </p>
-
+![Uploading mobile.png…]()
 
 ---
 
